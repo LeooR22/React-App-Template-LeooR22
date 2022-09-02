@@ -26,7 +26,7 @@ const CounterView: FC = () => {
 
   return (
     <>
-      <Box sx={{ mt: 2 }}>
+      <Box sx={{ mt: 2, mb: 3 }}>
         <Typography color="textPrimary" variant="h4" align="center">
           {`Estados Redux: ${count}`}
         </Typography>

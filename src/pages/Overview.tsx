@@ -7,6 +7,7 @@ import { PokemonOverview } from "../components/pokemon/PokemonOverview";
 import CounterView from "../components/counter/CounterView";
 
 import "./Styles.css";
+import { FormikYupOverview } from "../components/forms/FormikYupOverview";
 
 const Overview: FC = () => {
   return (
@@ -27,6 +28,8 @@ const Overview: FC = () => {
             <PokemonOverview />
             <Divider />
             <CounterView />
+            <Divider />
+            <FormikYupOverview />
           </Container>
         </Box>
       </Box>
